@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.2.0]
+
+-   Remove lifetime parameter on `Webview` and remove `WebviewMut` struct.
+    -   [b633c25](https://www.github.com/webview/webview_rust/commit/b633c256904381fcb9b027792c0b83bd2d752391) refactor: remove webview lifetime argument, drop WebviewMut ([#61](https://www.github.com/webview/webview_rust/pull/61)) on 2021-02-05
+
+## [0.1.1]
+
+-   Add eval method to WebviewMut
+    -   [68ea653](https://www.github.com/webview/webview_rust/commit/68ea653f2a8082ce2dce600595a50aa555183e28) Add eval method to WebviewMut ([#59](https://www.github.com/webview/webview_rust/pull/59)) on 2021-02-03
+
+## [0.1.0]
+
+-   Implement Send/Sync trait to Webview
+    -   [49d26ed](https://www.github.com/webview/webview_rust/commit/49d26ed8916ccac2f8eaf9f42b99ee88735af201) Implement Send/Sync trait to Webview ([#57](https://www.github.com/webview/webview_rust/pull/57)) on 2021-01-31
+
+## [0.0.5]
+
+-   -   Bump WebView2 to version 1.0
+-   Enable DPI awareness by default on Windows
+    -   Bumped due to a bump in sys.
+    -   [0e311cb](https://www.github.com/webview/webview_rust/commit/0e311cbd8e6083b674547ffbccb9f0247e1bdd16) Update webview-official which enables dpi awareness on windows ([#55](https://www.github.com/webview/webview_rust/pull/55)) on 2021-01-27
+
+## [0.0.4]
+
+-   Update webview-official to fix macOS port viability.
+    -   [f7ba383](https://www.github.com/webview/webview_rust/commit/f7ba383af21e13c1ac3076803a22c6a54d974894) chore: restructure submodule and crate, reset version and changelog ([#41](https://www.github.com/webview/webview_rust/pull/41)) on 2020-07-27
+    -   [a196328](https://www.github.com/webview/webview_rust/commit/a196328a375395e8b42a2aa2d65570b7902f4376) apply version updates ([#43](https://www.github.com/webview/webview_rust/pull/43)) on 2020-07-27
+    -   [8ea7f5a](https://www.github.com/webview/webview_rust/commit/8ea7f5a4b922978d8a78f1ffaf455dbc9b7fa978) Bump both crate version ([#53](https://www.github.com/webview/webview_rust/pull/53)) on 2021-01-22
+
 ## [0.0.3]
 
 -   Separate raw ffi to individual sys crate.
